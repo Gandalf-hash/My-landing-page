@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>My Landing Page</title>
+</head>
+<body>
+  <nav>
+    <div class="logo">
+      <img src="MyPic.jpg" alt="My pic">
+    </div>
+     <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Portfolio</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Contact Me</a></li>
+     </ul>
+  </nav>
+
+  <header>
+    <button id="toggle" class="toggle">
+      <i class="fa fa-bars fa-2x"></i>
+    </button>
+
+    <h1>My Landing Page</h1>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+       Saepe nam vero distinctio nobis a quae veritatis cumque 
+       fugit autem suscipit! Facilis distinctio sint harum fugit 
+       ratione dicta provident et. Hic!</p>
+
+       <button class="cta-btn" id="open">Sign Up</button>
+  </header>
+
+  <div class="container">
+    <h2>What is this landing page about?</h2>
+      <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+          Natus debitis maiores expedita accusamus autem in vitae quo magni ullam,
+          quibusdam a, dolore consectetur dicta odio ipsam et quis impedit voluptatum?
+      </p>
+
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Ab perferendis quam nobis facere libero tempore, 
+          laudantium atque enim fugit amet aspernatur, ullam architecto voluptas nihil
+          repellat deserunt quae doloremque asperiores.
+        </p>
+
+        <h2>Tell me more</h2>
+
+        <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Voluptatibus voluptatem commodi exercitationem praesentium at quia
+            in consectetur quaerat ut nostrum voluptate pariatur impedit doloribus 
+            fugit modi, minima tempora deserunt nesciunt!
+          </p>
+
+          <h2>Benefits</h2>
+          <ul>
+            <li>Lifetime access</li>
+            <li>30 day money back</li>
+            <li>Tailored customer support</li>
+          </ul>
+
+
+          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Nam deleniti eum obcaecati fugiat sunt ratione cupiditate
+              dignissimos modi sint laboriosam ullam id, aut sed porro quas
+               voluptatum cumque non quae!
+          </p>
+  </div>
+
+  <div class="modal-container" id="modal">
+    <div class="modal">
+      <button class="close-btn" id="close">
+        <i class="fa fa-times"></i>
+      </button>
+      <div class="modal-header">
+        <h3>Sign Up</h3>
+      </div>
+      <div class="modal-content">
+        <p>Register with us to get offers, support and more</p>
+        <form class="modal-form">
+          <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Enter Name" class="form-input">
+          </div>
+          <div>
+            <label for="email" id="email" placeholder="Enter Email">Email</label>
+            <input type="email" id="email" placeholder="Enter Email" class="form-input">
+          </div>
+          <div>
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter Password" class="form-input">
+          </div>
+          <div>
+            <label for="password2">Confirm Password</label>
+            <input type="password" id="password2" placeholder="Confirm Password" class="form-input">
+          </div>
+          <input type="submit" value="Submit" class="submit">
+        </form>
+      </div>
+    </div>
+
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
